@@ -14,7 +14,7 @@ function signIn(email,Password) {
 
 if(details.email===signemail && details.password===signpswd){
    
-    document.getElementById("signinForm").action="./../HTML/homepage.html"
+    document.getElementById("signinForm").action="./../homepage.html"
     localStorage.setItem("personSignedIn",details.name);    
 }
 
